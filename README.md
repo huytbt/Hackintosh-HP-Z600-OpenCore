@@ -9,4 +9,4 @@
 - To get USB functional: Delete '**AppleHPET.kext**' from **/System/Library/Extensions** once you have successfully booted in to macOS. Once deleted, reboot your Z600.
 
 ## OS Version Tested
-- macOS High Sierra 10.13.6 (17G13035)
+- macOS High Sierra 10.13.6 (17G13035, 17G14019)
