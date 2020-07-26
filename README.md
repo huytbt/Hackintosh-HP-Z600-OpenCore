@@ -10,7 +10,7 @@
 - Always check and delete '**AppleHPET.kext**' after update macOS. Maybe need Repair permissions and Rebuild cache SLE (Using Kext Wizard app).
 
 ## Issues
-- Graphics Radeon RX 570 can not show dual monitors, one monitor is black. Fix by add CsmVideoDxe-64.efi to drivers. Don't forget update OC/config.plist
+- Cannot boot via LegacyBoot
 
 ## OS Version Tested
 - macOS High Sierra 10.13.6 (17G13035, 17G14019)
