@@ -10,7 +10,7 @@
 - Always check and delete '**AppleHPET.kext**' after update macOS. Maybe need Repair permissions and Rebuild cache SLE (Using Kext Wizard app).
 
 ## Issues
-- Cannot boot via LegacyBoot
+- Cannot boot via LegacyBoot. Using Clover Boot Maintenance Manager --> Select OC EFI file
 
 ## OS Version Tested
 - macOS High Sierra 10.13.6 (17G13035, 17G14019)
