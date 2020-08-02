@@ -8,6 +8,7 @@
 ## Attention
 - To get USB functional: Delete '**AppleHPET.kext**' from **/System/Library/Extensions** once you have successfully booted in to macOS. Once deleted, reboot your Z600.
 - Always check and delete '**AppleHPET.kext**' after update macOS. Maybe need Repair permissions and Rebuild cache SLE (Using Kext Wizard app).
+- Please generate SMBios and add to conflig.plist (Using https://github.com/corpnewt/GenSMBIOS)
 
 ## Issues
 - Cannot boot via LegacyBoot. Using Clover Boot Maintenance Manager --> Select OC EFI file
