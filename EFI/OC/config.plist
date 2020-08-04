@@ -711,6 +711,18 @@
 				<key>MinKernel</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable AppleHPET kext to fix all USB not working</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleHPET</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+			</dict>
 		</array>
 		<key>Emulate</key>
 		<dict>
