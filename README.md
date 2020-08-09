@@ -10,9 +10,6 @@
 - Always check and delete '**AppleHPET.kext**' after update macOS. Maybe need Repair permissions and Rebuild cache SLE (Using Kext Wizard app).
 - Please generate SMBios and add to conflig.plist (Using https://github.com/corpnewt/GenSMBIOS)
 
-## Issues
-- Cannot boot via LegacyBoot. Using Clover Boot Maintenance Manager --> Select OC EFI file
-
 ## OS Version Tested
 - macOS High Sierra 10.13.6 (17G13035, 17G14019)
 - macOS Catalina 10.15.6 (19G73)
