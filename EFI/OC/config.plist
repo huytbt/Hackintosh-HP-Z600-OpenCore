@@ -502,6 +502,8 @@
 				<string>VGA compatible controller</string>
 				<key>model</key>
 				<string>Radeon RX 570</string>
+				<key>@1,AAPL,boot-display</key>
+				<string>0x00000001</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x1)</key>
 			<dict>
