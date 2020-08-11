@@ -91,7 +91,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1BUUw==</data>
 				<key>Limit</key>
@@ -110,138 +110,6 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data></data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename EHC1 to EH01 (USB)</string>
-				<key>Find</key>
-				<data>RUhDMQ==</data>
-				<key>Replace</key>
-				<data>RUgwMQ==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename EHC2 to EH02 (USB)</string>
-				<key>Find</key>
-				<data>RUhDMg==</data>
-				<key>Replace</key>
-				<data>RUgwMg==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename EUSB to EH01 (USB)</string>
-				<key>Find</key>
-				<data>RVVTQg==</data>
-				<key>Replace</key>
-				<data>RUgwMQ==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename USBE to EH02 (USB)</string>
-				<key>Find</key>
-				<data>VVNCRQ==</data>
-				<key>Replace</key>
-				<data>RUgwMg==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename XHCI to XHC (USB)</string>
-				<key>Find</key>
-				<data>WEhDSQ==</data>
-				<key>Replace</key>
-				<data>WEhDXw==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename XHC1 to XHC (USB)</string>
-				<key>Find</key>
-				<data>WEhDMQ==</data>
-				<key>Replace</key>
-				<data>WEhDXw==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename EC0 to EC (USB Power)</string>
-				<key>Find</key>
-				<data>RUMwXw==</data>
-				<key>Replace</key>
-				<data>RUNfXw==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename H_EC to EC (USB Power)</string>
-				<key>Find</key>
-				<data>SF9FQw==</data>
-				<key>Replace</key>
-				<data>RUNfXw==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename ECDV to EC (USB Power)</string>
-				<key>Find</key>
-				<data>RUNEVg==</data>
-				<key>Replace</key>
-				<data>RUNfXw==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename AZAL to HDEF (Audio)</string>
-				<key>Find</key>
-				<data>QVpBTA==</data>
-				<key>Replace</key>
-				<data>SERFRg==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename HDAS to HDEF (Audio)</string>
-				<key>Find</key>
-				<data>SERBUw==</data>
-				<key>Replace</key>
-				<data>SERFRg==</data>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-				<key>Enabled</key>
-				<true/>
 			</dict>
 		</array>
 	</dict>
@@ -526,9 +394,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>VirtualSMC.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -542,9 +410,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
+				<string>WhateverGreen.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
