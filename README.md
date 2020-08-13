@@ -11,7 +11,7 @@
 - Please generate SMBios and add to conflig.plist (Using https://github.com/corpnewt/GenSMBIOS)
 
 ## Feature Work Well
-- Sleep
+- Sleep and Wake up
 - Airdrop & Handoff
 - iMessage & Facetime
 
