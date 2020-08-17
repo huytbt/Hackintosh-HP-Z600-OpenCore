@@ -11,7 +11,7 @@
 - Please generate SMBios and add to conflig.plist (Using https://github.com/corpnewt/GenSMBIOS)
 
 ## Feature Work Well
-- Sleep
+- Sleep and Wake up
 - Airdrop & Handoff
 - iMessage & Facetime
 
@@ -20,4 +20,4 @@
 
 ## OS Version Tested
 - macOS High Sierra 10.13.6 (17G13035, 17G14019)
-- macOS Catalina 10.15.6 (19G73)
+- macOS Catalina 10.15.6 (19G73, 19G2021)
