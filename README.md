@@ -14,6 +14,7 @@
 - Sleep and Wake up
 - Airdrop & Handoff
 - iMessage & Facetime
+- Find My Mac
 
 ## Issues
 - Audio ALC262 (0x10ec0262) does not support codec -> using USB Sound Card
