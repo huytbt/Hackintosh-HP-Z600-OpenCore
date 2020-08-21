@@ -466,41 +466,41 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CtlnaAHCIPort</string>
+				<key>BundlePath</key>
+				<string>Huy-1-CtlnaAHCIPort.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>Huy-2-AHCIPortInjector.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>XHCI-unsupported.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>AHCIPortInjector.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -583,11 +583,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable AppleHPET kext to fix all USB not working</string>
+				<string>Disable AppleAHCIPort kext (Use CtlnaAHCIPort.kext)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Identifier</key>
-				<string>com.apple.driver.AppleHPET</string>
+				<string>com.apple.driver.AppleAHCIPort</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>

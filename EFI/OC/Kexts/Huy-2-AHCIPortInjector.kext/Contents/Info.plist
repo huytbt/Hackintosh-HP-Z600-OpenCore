@@ -18,7 +18,7 @@
 	<string>1.0.1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-        <key>AppleAHCIDiskDriver</key>
+		<key>AppleAHCIDiskDriver</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.iokit.IOAHCIBlockStorage</string>
@@ -36,7 +36,7 @@
 				<string>Internal</string>
 			</dict>
 		</dict>
-        <key>IOAHCISerialATAPI</key>
+		<key>IOAHCISerialATAPI</key>
 		<dict>
 			<key>ATAPI</key>
 			<true/>
@@ -59,7 +59,7 @@
 		<key>ASMedia ASM1061</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ASM1061 SATA IDE Controller</string>
 			<key>IOClass</key>
@@ -78,7 +78,7 @@
 		<key>ASMedia ASM1062</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ASM1062 SATA III Controller</string>
 			<key>IOClass</key>
@@ -97,7 +97,7 @@
 		<key>DH89xxCC AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>DH89xxCC 4 Port SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -111,10 +111,10 @@
 			<key>Vendor Name</key>
 			<string>Intel</string>
 		</dict>
-        <key>AppleSATAExpress</key>
+		<key>AppleSATAExpress</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>IOClass</key>
 			<string>AppleSATAExpress</string>
 			<key>IOPCIPrimaryMatch</key>
@@ -127,7 +127,7 @@
 		<key>GenericAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>SATA AHCI Standard Controller(Generic)</string>
 			<key>IOClass</key>
@@ -144,7 +144,7 @@
 		<key>ICH10AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH10 SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -161,7 +161,7 @@
 		<key>ICH10RAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH10 SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -178,7 +178,7 @@
 		<key>ICH10RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH10 SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -195,7 +195,7 @@
 		<key>ICH10RRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH10-R SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -212,7 +212,7 @@
 		<key>ICH6 ESB2 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>631xESB/632xESB SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -229,7 +229,7 @@
 		<key>ICH6 ESB2 RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>631xESB/632xESB SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -249,7 +249,7 @@
 		<key>ICH7MAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH7M SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -266,7 +266,7 @@
 		<key>ICH7MRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH7-M DH SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -283,7 +283,7 @@
 		<key>ICH7RAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH7R SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -300,7 +300,7 @@
 		<key>ICH7RRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH7-R SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -317,7 +317,7 @@
 		<key>ICH8AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH8 4 port SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -334,7 +334,7 @@
 		<key>ICH8MAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH8M/ICH8M-E SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -351,7 +351,7 @@
 		<key>ICH8MRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH8-M SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -368,7 +368,7 @@
 		<key>ICH8RAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH8R/DO/DH 6 port SATA AHCI controller</string>
 			<key>IOClass</key>
@@ -385,7 +385,7 @@
 		<key>ICH8RRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH8-R SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -402,7 +402,7 @@
 		<key>ICH9AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH9 4 port SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -419,7 +419,7 @@
 		<key>ICH9MAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH9M/M-E SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -436,7 +436,7 @@
 		<key>ICH9MRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH9M-E SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -453,7 +453,7 @@
 		<key>ICH9RAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH9R/DO/DH 6 port SATA AHCI Controller</string>
 			<key>IOClass</key>
@@ -470,7 +470,7 @@
 		<key>ICH9RRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>ICH9R/DO SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -484,10 +484,10 @@
 			<key>Vendor Name</key>
 			<string>Intel</string>
 		</dict>
-        <key>Intel10SeriesAHCI</key>
+		<key>Intel10SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>10 Series Chipset</string>
 			<key>IOClass</key>
@@ -506,7 +506,7 @@
 		<key>Intel5SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>5 Series Chipset</string>
 			<key>IOClass</key>
@@ -527,7 +527,7 @@
 		<key>Intel5SeriesRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>5 Series/3400 Series Chipset SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -547,7 +547,7 @@
 		<key>Intel6SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>6 Series Chipset</string>
 			<key>IOClass</key>
@@ -567,7 +567,7 @@
 		<key>Intel6SeriesRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>6 Series/C200 Series Chipset Family SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -587,7 +587,7 @@
 		<key>Intel7SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>7 Series Chipset</string>
 			<key>IOClass</key>
@@ -607,7 +607,7 @@
 		<key>Intel7SeriesRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>7 Series Chipset RAID</string>
 			<key>IOClass</key>
@@ -626,10 +626,10 @@
 			<key>Vendor Name</key>
 			<string>Intel</string>
 		</dict>
-        <key>Intel8SeriesAHCI</key>
+		<key>Intel8SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>8 Series Chipset</string>
 			<key>IOClass</key>
@@ -650,15 +650,15 @@
 		<key>Intel9SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>9 Series Chipset</string>
 			<key>IOClass</key>
 			<string>AppleIntelPchSeriesAHCI</string>
 			<key>IONameMatch</key>
 			<array>
-                <string>pci8086,8c82</string>				               
-                <string>pci8086,9c83</string>
+				<string>pci8086,8c82</string>
+				<string>pci8086,9c83</string>
 				<string>pci8086,8c83</string>
 			</array>
 			<key>IOProbeScore</key>
@@ -671,7 +671,7 @@
 		<key>IntelC600SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>C600/X79 Series Chipset</string>
 			<key>IOClass</key>
@@ -688,7 +688,7 @@
 		<key>IntelC600SeriesRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>C600/X79 series chipset SATA Premium RAID Controller</string>
 			<key>IOClass</key>
@@ -705,7 +705,7 @@
 		<key>IntelLynxPointAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>Lynx Point 6-port SATA Controller</string>
 			<key>IOClass</key>
@@ -727,7 +727,7 @@
 		<key>IntelLynxPointRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>Lynx Point 6-port SATA RAID Controller</string>
 			<key>IOClass</key>
@@ -755,7 +755,7 @@
 		<key>IntelWellsburgAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>Wellsburg sSATA Controller</string>
 			<key>IOClass</key>
@@ -772,7 +772,7 @@
 		<key>IntelWellsburgRAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>Wellsburg sSATA Controller RAID</string>
 			<key>IOClass</key>
@@ -793,7 +793,7 @@
 		<key>JMicron JMB360 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB360 AHCI Controller</string>
 			<key>IOClass</key>
@@ -812,7 +812,7 @@
 		<key>JMicron JMB360 RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB360 RAID</string>
 			<key>IOClass</key>
@@ -831,7 +831,7 @@
 		<key>JMicron JMB361 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JJMB361 AHCI/IDE</string>
 			<key>IOClass</key>
@@ -850,7 +850,7 @@
 		<key>JMicron JMB361 RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB361 RAID</string>
 			<key>IOClass</key>
@@ -869,7 +869,7 @@
 		<key>JMicron JMB362 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB362 SATA Controller</string>
 			<key>IOClass</key>
@@ -888,7 +888,7 @@
 		<key>JMicron JMB362 RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB362 RAID</string>
 			<key>IOClass</key>
@@ -907,7 +907,7 @@
 		<key>JMicron JMB363 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB363 SATA/IDE Controller</string>
 			<key>IOClass</key>
@@ -926,7 +926,7 @@
 		<key>JMicron JMB363 RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB363 RAID</string>
 			<key>IOClass</key>
@@ -945,7 +945,7 @@
 		<key>JMicron JMB364 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB364 AHCI Controller</string>
 			<key>IOClass</key>
@@ -964,7 +964,7 @@
 		<key>JMicron JMB365 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB365 AHCI/IDE</string>
 			<key>IOClass</key>
@@ -983,7 +983,7 @@
 		<key>JMicron JMB366 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB366 AHCI/IDE</string>
 			<key>IOClass</key>
@@ -1002,7 +1002,7 @@
 		<key>JMicron JMB366 RAID</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB366 RAID/IDE</string>
 			<key>IOClass</key>
@@ -1021,7 +1021,7 @@
 		<key>JMicron JMB369 AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB369 Serial ATA Controller</string>
 			<key>IOClass</key>
@@ -1040,7 +1040,7 @@
 		<key>JMicronAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>JMB36x AHCI Controller</string>
 			<key>IOClass</key>
@@ -1057,7 +1057,7 @@
 		<key>MCP79AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>MCP79 AHCI</string>
 			<key>IOClass</key>
@@ -1074,7 +1074,7 @@
 		<key>MCP89AHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>MCP89 AHCI</string>
 			<key>IOClass</key>
@@ -1091,7 +1091,7 @@
 		<key>Marvell 88SE9120</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9120 SATA 6Gb/s Controller</string>
 			<key>IOClass</key>
@@ -1110,7 +1110,7 @@
 		<key>Marvell 88SE9123</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9123 PCIe SATA 6.0 Gb/s controller</string>
 			<key>IOClass</key>
@@ -1129,7 +1129,7 @@
 		<key>Marvell 88SE9125</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9125 PCIe SATA 6.0 Gb/s controller</string>
 			<key>IOClass</key>
@@ -1148,7 +1148,7 @@
 		<key>Marvell 88SE9128</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9128 PCIe SATA 6 Gb/s RAID controller with HyperDuo</string>
 			<key>IOClass</key>
@@ -1167,7 +1167,7 @@
 		<key>Marvell 88SE9172</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9172 SATA III 6Gb/s RAID Controller</string>
 			<key>IOClass</key>
@@ -1186,7 +1186,7 @@
 		<key>Marvell 88SE91A0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9172 SATA 6Gb/s Controller</string>
 			<key>IOClass</key>
@@ -1205,7 +1205,7 @@
 		<key>Marvell 88SE9230</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9172 PCIe SATA 6Gb/s Controller</string>
 			<key>IOClass</key>
@@ -1224,7 +1224,7 @@
 		<key>Marvell 88SE9480</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleAHCIPort</string>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
 			<key>Chipset Name</key>
 			<string>88SE9172 SAS/SATA 6Gb/s RAID controller</string>
 			<key>IOClass</key>
