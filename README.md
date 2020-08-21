@@ -3,11 +3,12 @@
 ## System Specification
 - Processor: 2 x 3.1 GHz 6-Core Intel Xeon X5675
 - Memory: 32.03 GB 1600 MHz DDR3
-- Graphics: NVIDIA Quadro K4000 3071 MB --> Change to **Radeon RX 570 4 GB** for update macOS
+- Graphics: NVIDIA Quadro K4000 3 GB --> Change to **Radeon RX 570 4 GB** for update macOS
+
+## Information
+- Change from AppleAHCIPort.kext to CtlnaAHCIPort.kext. This is for update to Big Sur. Issue related SATA. The cause Apple removed the AppleIntelPchSeriesAHCI class from AppleAHCIPort.kext. So boot panic with error "Waiting for Root Device"
 
 ## Attention
-- To get USB functional: Delete '**AppleHPET.kext**' from **/System/Library/Extensions** once you have successfully booted in to macOS. Once deleted, reboot your Z600.
-- Always check and delete '**AppleHPET.kext**' after update macOS. Maybe need Repair permissions and Rebuild cache SLE (Using Kext Wizard app).
 - Please generate SMBios and add to conflig.plist (Using https://github.com/corpnewt/GenSMBIOS)
 
 ## Feature Work Well
