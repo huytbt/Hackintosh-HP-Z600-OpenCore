@@ -7,6 +7,7 @@
 
 ## Information
 - Change from AppleAHCIPort.kext to CtlnaAHCIPort.kext. This is for update to Big Sur. Issue related SATA. The cause Apple removed the AppleIntelPchSeriesAHCI class from AppleAHCIPort.kext. So boot panic with error "Waiting for Root Device"
+- Z600 / Z800 with AppleALC ID28 also always needed the CodecCommander.kext
 
 ## Attention
 - Please generate SMBios and add to conflig.plist (Using https://github.com/corpnewt/GenSMBIOS)
@@ -16,9 +17,7 @@
 - Airdrop & Handoff
 - iMessage & Facetime
 - Find My Mac
-
-## Issues
-- Audio ALC262 (0x10ec0262) does not support codec -> using USB Sound Card
+- Audio
 
 ## OS Version Tested
 - macOS High Sierra 10.13.6 (17G13035, 17G14019)
