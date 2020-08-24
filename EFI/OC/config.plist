@@ -127,6 +127,110 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Change EUSB to EH01</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RVVTQg==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUgwMQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Change USBE to EH02</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>VVNCRQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUgwMg==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HPET _CRS to XCRS Rename</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>Ml9DUlM=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>Replace</key>
+				<data>MlhDUlM=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>RTC IRQ 8 Patch</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>IgABeQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>Replace</key>
+				<data>IgAAeQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
 		</array>
 	</dict>
 	<key>Booter</key>
