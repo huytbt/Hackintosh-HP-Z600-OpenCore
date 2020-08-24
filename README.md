@@ -17,13 +17,13 @@
 - Airdrop & Handoff
 - iMessage & Facetime
 - Find My Mac
-- Audio
+- Native HD Audio
 
 ## OS Version Tested
 - macOS High Sierra 10.13.6 (17G13035, 17G14019)
 - macOS Catalina 10.15.6 (19G73, 19G2021)
 - macOS Big Sur 11.0 Beta (20A5343i)
 
-#### Credits
+## Credits
 - [Apple](https://www.apple.com) for macOS  
 - [Acidanthera](https://github.com/acidanthera) for Hackintosh
