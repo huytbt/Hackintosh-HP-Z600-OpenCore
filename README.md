@@ -4,7 +4,7 @@
 - Processor: 2 x 3.1 GHz 6-Core Intel Xeon X5675
 - Memory: 32.03 GB 1600 MHz DDR3
 - Graphics: *NVIDIA Quadro K4000 3 GB* --> Changed **Radeon RX 570 4 GB** to update macOS from High Sierra to latest version
-- Wireless: BCM94360 Airport Adapter
+- Wireless: BCM94360CD(Wifi) + 20702B0(Bluetooth 4.0) Airport Adapter
 
 ## Information
 - Change from AppleAHCIPort.kext to CtlnaAHCIPort.kext. This is for update to Big Sur. Issue related SATA. The cause Apple removed the AppleIntelPchSeriesAHCI class from AppleAHCIPort.kext. So boot panic with error "Waiting for Root Device"
