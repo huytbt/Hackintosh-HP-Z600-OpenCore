@@ -27,6 +27,7 @@
 
 ## Issues
 - Big Sur: Apple stop support BCM5764M Ethernet card, need use NullEthernet.kext to fix iServices
+- Big Sur: Issue when unplug and plug again usb keyboard/mouse
 
 ## Credits
 - [Apple](https://www.apple.com) for macOS  
