@@ -322,6 +322,8 @@
 				<string>Network controller</string>
 				<key>model</key>
 				<string>BCM4360 802.11ac Wireless Network Adapter</string>
+				<key>built-in</key>
+				<data>AQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1A,0x0)</key>
 			<dict>
