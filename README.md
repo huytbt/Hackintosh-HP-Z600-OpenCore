@@ -26,7 +26,7 @@
 - macOS Big Sur 11.0 Beta (20A5343i, 20A5354i)
 
 ## Issues
-- Big Sur: Apple stop support BCM5764M Ethernet card, need use NullEthernet.kext to fix iServices
+- Big Sur: Apple stop support BCM5764M Ethernet card
 - Big Sur: Issue when unplug and plug again usb keyboard/mouse
 
 ## Credits
